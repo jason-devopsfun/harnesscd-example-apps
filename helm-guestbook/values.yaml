@@ -5,9 +5,10 @@
 replicaCount: 3
 
 image:
-  repository: gcr.io/heptio-images/ks-guestbook-demo
-  # tag: 0.14
-  tag: 0.1
+  repository: springci/spring-boot-ci-image
+  tag: latest
+  # repository: gcr.io/heptio-images/ks-guestbook-demo
+  # tag: 0.1
   pullPolicy: IfNotPresent
 
 service:
